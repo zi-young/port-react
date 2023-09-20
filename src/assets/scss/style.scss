@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+html {
+    font-size: calc(0.42vw + 2px);
+  }
+  @media screen and (max-width:1200px ){
+    html {
+      font-size: calc(0.42vw + 4px);
+    }
+  }
+  body {cursor: none;}
+  * {
+    cursor: none; // 모든 요소에 대해 커서 이미지로 설정
+  }
+
+  .app__banner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  .custom-cursor {
+    width: 32px; // 커서 이미지의 너비
+    height: 3.3rem; // 커서 이미지의 높이
+    background-image: url('../img/cursor-pointer.png'); // 커서 이미지의 경로
+    background-size: cover; // 이미지 크기 조절
+    pointer-events: none; // 커서 요소를 클릭 가능하지 않도록 설정
+    position: fixed; // 화면 고정 위치
+    z-index: 99999; // 다른 요소 위에 표시
+  }
+
+  
+  .flowerText {
+      position: fixed;
+      bottom: 12%;
+      right: 4%;
+      z-index: 100;
+      min-width: 170px;
+      min-height: 170px;
+      max-width: 170px;
+      max-height: 170px;
+      cursor: pointer;
+      .fill-text {
+          min-width: 170px;
+          min-height: 190px;
+          display: flex;
+          justify-content: center;
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          z-index: 2;
+          >img {
+            width: 50%;
+            transform: rotate(180deg);
+          }
+          h4 {
+              font-family: "TTCommons-Medium";
+              font-weight: normal !important;
+              letter-spacing: 1px;
+              font-size: clamp(12px, 1vw, 16px) !important;
+              line-height: 2 !important;
+              margin-block-start: 2.5em;
+              margin-block-end: 0em;
+              text-transform: uppercase;
+              text-align: center;
+          }
+      }
+      .rotate {
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          @keyframes rotate {
+              0% {
+                  transform: rotate(0deg);
+              }
+              100% {
+                  transform: rotate(360deg);
+              }
+          }
+          svg {
+              -webkit-animation: rotate 15s linear infinite;
+              -moz-animation: rotate 15s linear infinite;
+              animation: rotate 15s linear infinite;
+          }
+      }
+  }
+
+// setting
+@import "setting/fonts";
+@import "setting/vars";
+@import "setting/reset";
+@import "setting/mixin";
+
+// section
+@import "section/header";
+@import "section/intro";
+@import "section/skill";
+@import "section/site";
+@import "section/contact";
+@import "section/footer";
