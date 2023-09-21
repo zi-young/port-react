@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/port-react/static/css/main.9ed5daed.css",
-    "main.js": "/port-react/static/js/main.b3332f28.js",
+    "main.css": "/port-react/static/css/main.a8097d94.css",
+    "main.js": "/port-react/static/js/main.cc580390.js",
     "static/media/nextjs.png": "/port-react/static/media/nextjs.755328435d1970f9dada.png",
     "static/media/movie.png": "/port-react/static/media/movie.df651707e67b1366901e.png",
     "static/media/react_shop.png": "/port-react/static/media/react_shop.8bb32b91fa971d6ca27d.png",
@@ -30,11 +30,11 @@
     "static/media/HTML.svg": "/port-react/static/media/HTML.ca0db580ffd74f086f2dc2a71dacd660.svg",
     "static/media/Vue.svg": "/port-react/static/media/Vue.42bfdb6688c5638c62c144c0d04488a6.svg",
     "static/media/icon_arrow_down.svg": "/port-react/static/media/icon_arrow_down.f728af32aca4733f823cb6fa4fb3aede.svg",
-    "main.9ed5daed.css.map": "/port-react/static/css/main.9ed5daed.css.map",
-    "main.b3332f28.js.map": "/port-react/static/js/main.b3332f28.js.map"
+    "main.a8097d94.css.map": "/port-react/static/css/main.a8097d94.css.map",
+    "main.cc580390.js.map": "/port-react/static/js/main.cc580390.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ed5daed.css",
-    "static/js/main.b3332f28.js"
+    "static/css/main.a8097d94.css",
+    "static/js/main.cc580390.js"
   ]
 }
