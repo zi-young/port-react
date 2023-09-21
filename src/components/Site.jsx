@@ -58,7 +58,7 @@ export default function App() {
       description1:
         "공간기록 반응형 클론코딩",
       description2:
-        "Description 4: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "HTML과 CSS를 활용해서 반응형으로 디자인하였으며, JQuery로 슬라이드를 추가했습니다.",
       tools: [htmlImage, JQueryImage, cssImage],
       code: "https://github.com/zi-young/project003",
       view: "https://zi-young.github.io/project003/",
@@ -66,25 +66,17 @@ export default function App() {
     {
       image: bootstrap,
       description1: "부트스트랩을 사용한 반응형 쇼핑몰",
-      description2: "부트스트랩을 사용한 반응형 쇼핑몰",
+      description2: "bootstrap 라이브러리를 활용해서 반응형으로 디자인하였으며, Kakao와 날씨 API를 이용해서 모달창으로 보여지게 구현하였습니다. ",
       tools: [bootstrapImage, cssImage],
       code: "https://github.com/zi-young/project001",
       view: "https://zi-young.github.io/project002/",
     },
     {
-      image: video,
-      description1:
-        "Description 6: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      description2:
-        "Description 6: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      tools: [htmlImage, JavaScriptImage, cssImage],
-    },
-    {
       image: HTML,
       description1:
-        "HTML과 CSS를 사용하여 디자인하였으며, 자바스크립트를 이용해 기능구현한 첫 관공서 프로젝트",
+        "관공서 프로젝트",
       description2:
-        "HTML과 CSS를 사용하여 디자인하였으며, 자바스크립트를 이용해 기능구현한 첫 관공서 프로젝트",
+        "HTML과 CSS를 사용하여 디자인하였으며, JavaScript를 이용해 슬라이드를 구현하였습니다.",
       tools: [htmlImage, cssImage, JavaScriptImage],
     },
   ];

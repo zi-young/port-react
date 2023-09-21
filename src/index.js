@@ -4,9 +4,10 @@ import App from "./App";
 import "./assets/scss/style.scss"
 import { BrowserRouter } from "react-router-dom";
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
+  <BrowserRouter  basename={process.env.PUBLIC_URL}>
     <App />
   </BrowserRouter>
 );
