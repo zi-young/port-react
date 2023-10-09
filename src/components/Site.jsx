@@ -60,16 +60,16 @@ export default function App() {
       description2:
         "HTML과 CSS를 활용해서 반응형으로 디자인하였으며, JQuery로 슬라이드를 추가했습니다.",
       tools: [htmlImage, JQueryImage, cssImage],
-      code: "https://github.com/zi-young/project003",
-      view: "https://zi-young.github.io/project003/",
+      code: "https://github.com/zi-young/Responsive-site",
+      view: "https://zi-young.github.io/Responsive-site/",
     },
     {
       image: bootstrap,
       description1: "부트스트랩을 사용한 반응형 쇼핑몰",
       description2: "bootstrap 라이브러리를 활용해서 반응형으로 디자인하였으며, Kakao와 날씨 API를 이용해서 모달창으로 보여지게 구현하였습니다. ",
       tools: [bootstrapImage, cssImage],
-      code: "https://github.com/zi-young/project001",
-      view: "https://zi-young.github.io/project002/",
+      code: "https://github.com/zi-young/bootstrap-site",
+      view: "https://zi-young.github.io/bootstrap-site/",
     },
     {
       image: HTML,
@@ -78,6 +78,8 @@ export default function App() {
       description2:
         "HTML과 CSS를 사용하여 디자인하였으며, JavaScript를 이용해 슬라이드를 구현하였습니다.",
       tools: [htmlImage, cssImage, JavaScriptImage],
+      code: "https://github.com/zi-young/html-site",
+      view: "https://zi-young.github.io/html-site/",
     },
   ];
 
