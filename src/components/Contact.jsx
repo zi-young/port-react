@@ -1,7 +1,6 @@
 import React from "react";
 import { useForm, ValidationError } from '@formspree/react';
 import chat from '../assets/img/chat.png'
-import user from '../assets/img/user.png'
 import contact from '../assets/img/contact.png'
 
 const contactText = [
@@ -26,9 +25,6 @@ const Contact = () => {
                 </div>
             </div>
             <div className="form__box">
-                <div className="user">
-                    <img src={user} alt="userIcon"></img>
-                </div>
              <div className="form__inner">
                     <form onSubmit={handleSubmit}>
                         <div className="email__box">

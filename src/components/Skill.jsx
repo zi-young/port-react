@@ -43,7 +43,6 @@ function Skill() {
           <span className='name2'>입니다 💁🏻‍♀️</span>
           </h1>
           <p>1996.12.21</p>
-          <p>010-3552-4191</p>
           <div className="skill__box">
              <div className='svg__box'>
                <img src={bootstrapImage} alt="Bootstrap" />

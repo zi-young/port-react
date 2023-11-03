@@ -5,13 +5,12 @@ import "swiper/css/pagination";
 import "../assets/scss/section/_site.scss"; // SCSS 파일을 import합니다.
 import { Pagination } from "swiper/modules";
 
-import computer from "../assets/img/computer.png";
+// import computer from "../assets/img/computer.png";
 import nextjs from "../assets/img/nextjs.png";
 import react_shop from "../assets/img/react_shop.png";
 import movie from "../assets/img/movie.png";
 import responsive from "../assets/img/responsive-web.png";
 import HTML from "../assets/img/HTML.png";
-import video from "../assets/img/video.png";
 import bootstrap from "../assets/img/bootstrap.png";
 
 import htmlImage from "../assets/skills/HTML.svg";
@@ -138,15 +137,9 @@ export default function App() {
           >
             {slides.map((slide, index) => (
               <SwiperSlide key={index}>
-                <div className="swiper__computer">
-                  <div className="computer__box">
-                    <img src={computer} alt="computer" />
-                  </div>
-
-                  <div className="swiper__imgbox">
+                  <div className="project__box">
                     <img src={slide.image} alt={`Slide ${index + 1}`} />
                   </div>
-                </div>
               </SwiperSlide>
             ))}
           </Swiper>
