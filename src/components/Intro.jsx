@@ -22,8 +22,8 @@ const Intro = () => {
                 <div className="intro__text">
                     <h2 className="intro__title animate__animated animate__slow animate__infinite animate__bounce">jiyoung Portfloio</h2>
                     <div className="text">
-                        <p>Frontend Developer</p>
-                        <p style={linkStyle2}>
+                        <p>Frontend Developer & Web Publisher</p>
+                        {/* <p style={linkStyle2}>
                             Click here to know{' '}
                             <Link
                                 activeClass="active"
@@ -36,7 +36,7 @@ const Intro = () => {
                             >
                                 About me
                             </Link>
-                        </p>
+                        </p> */}
                     </div>
                 </div>
             </div>

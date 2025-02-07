@@ -6,7 +6,7 @@ import "../assets/scss/section/_site.scss"; // SCSS 파일을 import합니다.
 import { Pagination } from "swiper/modules";
 
 // import computer from "../assets/img/computer.png";
-import nextjs from "../assets/img/nextjs.png";
+// import nextjs from "../assets/img/nextjs.png";
 import react_shop from "../assets/img/react_shop.png";
 import movie from "../assets/img/movie.png";
 import responsive from "../assets/img/responsive-web.png";
@@ -26,14 +26,14 @@ import arrow from "../../src/assets/img/arrowprev.png";
 
 export default function App() {
   const slides = [
-    {
-      image: nextjs,
-      description1: "next.js를 사용한 여행 사이트",
-      description2: "mongoDB를 활용하여 Cart, Notice기능을 구현하였고, Next-Auth를 이용해서 로그인 기능을 추가했습니다.",
-      tools: [NextJS, cssImage],
-      code: "https://github.com/zi-young/shopping",
-      view: "https://shopping-w9gw.vercel.app/",
-    },
+    // {
+    //   image: nextjs,
+    //   description1: "next.js를 사용한 여행 사이트",
+    //   description2: "mongoDB를 활용하여 Cart, Notice기능을 구현하였고, Next-Auth를 이용해서 로그인 기능을 추가했습니다.",
+    //   tools: [NextJS, cssImage],
+    //   code: "https://github.com/zi-young/shopping",
+    //   view: "https://shopping-w9gw.vercel.app/",
+    // },
     {
       image: react_shop,
       description1: "react를 사용한 굿즈샵 ",

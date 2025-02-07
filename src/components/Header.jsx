@@ -5,10 +5,10 @@ const headerNav = [
     title: "intro",
     url: "#intro",
   },
-  {
-    title: "about me",
-    url: "#skill",
-  },
+  // {
+  //   title: "about me",
+  //   url: "#skill",
+  // },
   {
     title: "portfolio",
     url: "#site",

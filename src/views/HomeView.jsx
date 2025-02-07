@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import Header from "../components/Header";
 import Intro from "../components/Intro";
-import Skill from "../components/Skill";
+// import Skill from "../components/Skill";
 import Site from "../components/Site";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
@@ -29,7 +29,7 @@ const HomeView = () => {
         <Header />
         <Main>
           <Intro />
-          <Skill />
+          {/* <Skill /> */}
           <Site />
           <Contact />
         </Main>
